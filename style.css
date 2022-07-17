@@ -4,8 +4,10 @@ body {
   display: flex;
   flex-direction: column;
   scroll-behavior: smooth;
-  width: 100vw;
+  width: auto;
+  overflow-x: hidden;
 }
+
 header {
   background-color: #1f2937;
   color: white;
